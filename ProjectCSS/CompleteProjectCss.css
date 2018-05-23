@@ -1,0 +1,242 @@
+
+/* Top section */
+
+
+.container {
+	max-width: 1200px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+.logoWrapper{
+	width: 100%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+	box-shadow: 0 5px #7d97ad;
+	margin-bottom: 10px;
+}
+
+
+.logoBox {
+	width: 5%;
+}
+
+
+.textWrapper{
+	width: 95%;
+}
+
+
+.header__title {
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #2d3c49;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+
+.header__subTitle {
+	font-weight: 100;
+	font-size: 1.5em;
+	color: #2d3c49;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+
+.header__logo {
+	height: 75px;
+	margin-top: 20px;
+}
+
+
+/* Main Photo */
+
+
+.mainImage {
+	width: 100%;
+	height: 100%;
+	height: auto;
+}
+
+
+.mainPhoto {
+	width: 100%;
+	height: 100%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/* Title between the Big image and the 3 smaller images. */
+
+
+.profileBox {
+	width: 100%;
+	border-color: #92a8d1;
+	border-style: dotted dashed solid double;
+}
+
+
+.profile {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+
+.featuredWorks {
+	font-size: 1.5em;
+	opacity: 0.8;
+	color: #7d97ad;
+	font-weight: 200;
+	margin: 12px auto 0.3em;
+}
+
+
+.featTitle {
+	width:100%;
+}
+
+
+/* Responsive three images */
+
+
+.box {
+	max-width: 1200px;
+	width: 100%;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+
+
+.pictureOne,
+.pictureTwo,
+.pictureThree {
+	width: 300px;
+	height: 200px;
+}
+
+
+.name {
+	text-align: center;
+	margin: auto;
+}
+
+
+h2 {
+	font-size: 1.5em;
+	font-weight: 200;
+}
+
+
+/* Styles transitional period between mobile and  tablet */
+
+
+@media screen and (min-width: 560px) {
+
+	.header__title {
+		font-size: 2em;
+	}
+
+
+	.header__subTitle {
+		font-size: 2em;
+	}
+
+
+	.featuredWorks {
+		font-size: 2.5em;
+	}
+
+
+	.name {
+		font-size: 1.5em;
+	}
+
+
+	.profile {
+		font-size: 2em;
+	}
+}
+
+
+/* Tablet Styles */
+
+
+@media screen and (min-width: 768px) {
+
+	.header__title {
+		font-size: 3em;
+	}
+
+
+	.header__subTitle {
+		font-size: 3em;
+	}
+
+
+	.header__logo {
+		height: 100px;
+	}
+
+
+	.name {
+		font-size: 2.5em;
+	}
+
+
+	.featuredWorks {
+		font-size: 4em;
+	}
+
+
+	.profile {
+		font-size: 3em;
+	}
+}
+
+
+/* Desktop Styles */
+
+
+@media screen and (min-width: 1200px) {
+
+	.header__title {
+		font-size: 4em;
+	}
+
+
+	.header__subTitle {
+		font-size: 4em;
+	}
+
+
+	.header__logo {
+		height: 140px;
+	}
+
+
+	.profile {
+		font-size: 3.5em;
+	}
+}
+
+
+
+
+
+
+
